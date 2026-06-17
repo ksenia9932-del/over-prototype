@@ -144,7 +144,7 @@ const PromoPage: React.FC = () => {
   const dailyRate = getDailyRate(amount);
   const totalDailyCommission = amount > 0 ? dailyRate * validDays : 0;
 
-  const weeklyChargesCount = (amount > 0 && validDays >= 2) ? Math.floor((validDays - 2) / 7) + 1 : 0;
+  const weeklyChargesCount = (amount > 490 && validDays >= 1) ? Math.floor((validDays - 1) / 7) + 1 : 0;
   const totalWeeklyCommission = weeklyChargesCount * 490;
 
   const totalCommission = totalDailyCommission + totalWeeklyCommission;
@@ -356,7 +356,7 @@ const PromoPage: React.FC = () => {
                   </div>
                   <div className={styles.listContent}>
                     <h4>Еженедельная комиссия — 490 ₽</h4>
-                    <p>Начисляется в следующий день после того, как вы потратите первую сумму, и дальше каждые 7 дней, пока не погасите долг</p>
+                    <p>Начисляется в день, когда вы потратите первую сумму из овердрафта, и дальше каждые 7 дней, пока не погасите долг</p>
                   </div>
                 </div>
                 <div className={styles.listItem}>
@@ -637,7 +637,7 @@ const PromoPage: React.FC = () => {
               </div>
             </div>
             <div className={styles.modalBody}>
-              <p className={styles.modalSubtitle}>Комиссии начисляются только при&nbsp;использовании лимита</p>
+              <p className={styles.modalSubtitle}>Комиссии начисляются только при использовании лимита. Если вернуть деньги в тот же день, когда взяли, до 21:00 мск, платить ничего не нужно.</p>
               
               <div className={styles.calcInputLayout}>
                 <div className={styles.calcInputContent}>
@@ -747,7 +747,7 @@ const PromoPage: React.FC = () => {
                       </svg>
                       {isWeeklyCalcTooltipVisible && (
                         <div className={styles.tooltip} style={{ whiteSpace: 'normal', width: '100%', minWidth: '240px', textAlign: 'center' }}>
-                          Фиксированная — 490 ₽. Начисляется в следующий день после того, как вы потратите первую сумму из лимита, и дальше каждые 7 дней, пока не погасите долг.
+                          Фиксированная — 490 ₽. Начисляется в день, когда вы потратите первую сумму из овердрафта, и дальше каждые 7 дней, пока не погасите долг.
                         </div>
                       )}
                     </div>

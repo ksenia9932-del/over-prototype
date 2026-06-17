@@ -309,8 +309,9 @@
 
 .infoBoxText {
   margin: 0;
-  font-size: var(--ttn-400-s-01-size);
-  line-height: var(--ttn-400-s-01-lh);
+  font-size: var(--ttn-400-m-01-size);
+  line-height: var(--ttn-400-m-01-lh);
+  font-weight: 400;
   color: var(--primitive-primary);
 }
 
