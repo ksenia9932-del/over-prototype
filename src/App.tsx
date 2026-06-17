@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import PromoPage from './pages/PromoPage'
 import ConfirmationPage from './pages/ConfirmationPage'
@@ -6,7 +6,7 @@ import PasswordPage from './pages/PasswordPage'
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div>
         <Routes>
           <Route path="/" element={<PasswordPage />} />
@@ -15,7 +15,7 @@ function App() {
           <Route path="/confirmation" element={<ConfirmationPage />} />
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
