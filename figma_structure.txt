@@ -1,0 +1,620 @@
+- FRAME: Промо
+  - INSTANCE: 🛠 Main Page Navigation Bar
+    - FRAME: Content
+      - FRAME: Logo
+        - FRAME: Logo
+          - INSTANCE: tochka_bank_cyr_two_lines
+            - VECTOR: tochka_bank_cyr_two_lines
+        - INSTANCE: Indicator Button
+          - FRAME: Indicator
+            - INSTANCE: 🛠 Notification Indicator
+              - RECTANGLE: Fill
+          - FRAME: Text
+            - TEXT: тл
+      - FRAME: Content
+        - INSTANCE: SCI Navigation Button
+          - INSTANCE: Avatar
+            - FRAME: Content
+              - ELLIPSE: Mask
+              - INSTANCE: Logo
+                - VECTOR: Logo
+          - TEXT: Главная
+        - INSTANCE: SCI Navigation Button
+          - INSTANCE: Avatar
+            - FRAME: Content
+              - ELLIPSE: Mask
+              - INSTANCE: Logo
+                - VECTOR: Logo
+          - TEXT: Платежи
+        - INSTANCE: SCI Navigation Button
+          - INSTANCE: Avatar
+            - FRAME: Content
+              - ELLIPSE: Mask
+              - INSTANCE: Logo
+                - VECTOR: Logo
+          - TEXT: Сервисы
+      - FRAME: Cutomer & Settings
+        - FRAME: Left
+          - INSTANCE: Avatar
+            - FRAME: Content
+              - VECTOR: Fill
+              - TEXT: НО
+          - FRAME: Content
+            - FRAME: Name
+              - TEXT: Носковец О.Н., ИП
+              - INSTANCE: Stroked 2px/Chevron Down
+                - GROUP: Source
+                  - VECTOR: Vector
+                - BOOLEAN_OPERATION: Icon
+                  - VECTOR: Vector
+            - FRAME: Extra
+              - INSTANCE: Tochka Plus
+                - VECTOR: Vector
+              - TEXT: ИНН 6658 3754 26
+        - FRAME: Actions
+          - FRAME: Notifications
+            - INSTANCE: Stroked 2px/Bell
+              - GROUP: Source
+                - VECTOR: Vector
+                - VECTOR: Vector
+                - VECTOR: Vector
+              - BOOLEAN_OPERATION: Icon
+                - VECTOR: Vector
+            - INSTANCE: 🛠 Notification Indicator
+              - RECTANGLE: Fill
+          - INSTANCE: Stroked 2px/Gift
+            - GROUP: Source
+              - VECTOR: Vector
+              - RECTANGLE: Rounded rectangle
+              - VECTOR: Vector
+              - VECTOR: Vector
+              - VECTOR: Vector
+            - BOOLEAN_OPERATION: Icon
+              - VECTOR: Vector
+          - INSTANCE: Common/Stroked/Gear
+            - GROUP: Source
+              - BOOLEAN_OPERATION: Union
+                - BOOLEAN_OPERATION: Union
+                  - BOOLEAN_OPERATION: Union
+                    - VECTOR: Vector
+                    - VECTOR: Vector
+                    - VECTOR: Vector
+                  - VECTOR: Vector
+                - VECTOR: Vector
+            - BOOLEAN_OPERATION: Icon
+              - VECTOR: Vector
+          - INSTANCE: Stroked 2px/Arrow Right Outgoing Rectangle Vertical
+            - GROUP: Source
+              - BOOLEAN_OPERATION: Union
+                - VECTOR: Vector
+                - BOOLEAN_OPERATION: Union
+                  - VECTOR: Vector
+                  - VECTOR: Vector
+            - BOOLEAN_OPERATION: Icon
+              - VECTOR: Vector
+    - RECTANGLE: Separate Line
+  - INSTANCE: Navigation Bar
+    - FRAME: Button
+      - INSTANCE: Navbar Button
+        - INSTANCE: Stroked 2px/Arrow Left
+          - GROUP: Source
+            - BOOLEAN_OPERATION: Union
+              - VECTOR: Vector
+              - VECTOR: Vector
+          - BOOLEAN_OPERATION: Icon
+            - VECTOR: Vector
+      - INSTANCE: Clear Button
+        - INSTANCE: Stroked 2px/Circle
+          - GROUP: Source
+            - BOOLEAN_OPERATION: Union
+              - VECTOR: Vector
+              - VECTOR: Vector
+              - VECTOR: Vector
+              - VECTOR: Vector
+              - VECTOR: Vector
+          - BOOLEAN_OPERATION: Icon
+            - VECTOR: Vector
+    - FRAME: Title
+      - INSTANCE: Root Link
+        - TEXT: Кредиты и займы
+        - FRAME: Arrow
+          - INSTANCE: Stroked 2px/Chevron Up
+            - GROUP: Source
+              - VECTOR: Vector
+            - BOOLEAN_OPERATION: Icon
+              - VECTOR: Vector
+      - INSTANCE: Navbar Title
+        - TEXT: Text 2XL
+        - TEXT: Text XS
+    - FRAME: Items
+      - INSTANCE: Navigation Item 1
+        - TEXT: Text S
+      - INSTANCE: Navigation Item 2
+        - TEXT: Text S
+      - INSTANCE: Navigation Item 3
+        - TEXT: Text S
+      - INSTANCE: Navigation Item 4
+        - TEXT: Text S
+      - INSTANCE: Navigation Item 5
+        - TEXT: Text S
+  - FRAME: Content 
+    - FRAME: Условия
+      - INSTANCE: Promo Page Banner
+        - FRAME: Content
+          - FRAME: Information
+            - FRAME: Text
+              - TEXT: Вам предодобрен овердрафт на 300 000 ₽
+              - TEXT: Предложение действует до 30 июня
+            - FRAME: Button Block
+              - INSTANCE: Button
+                - INSTANCE: Spinner
+                  - VECTOR: Vector
+                - FRAME: Content
+                  - TEXT: Text L
+          - INSTANCE: _Promo Page Image
+            - FRAME: img
+              - INSTANCE: Swoosh 90
+                - GROUP: Illustration
+                  - VECTOR: Vector
+                  - VECTOR: Vector
+                  - VECTOR: Vector
+                  - VECTOR: Vector
+                  - VECTOR: Vector
+                  - VECTOR: Vector
+                  - VECTOR: Vector
+                  - VECTOR: Vector
+                  - VECTOR: Vector
+              - INSTANCE: Object 161
+                - GROUP: Illustration
+                  - GROUP: Ruble
+                    - VECTOR: Vector
+                    - VECTOR: Vector
+                    - VECTOR: Vector
+                    - VECTOR: Vector
+                    - VECTOR: Vector
+                    - VECTOR: Vector
+                    - VECTOR: Vector
+                    - VECTOR: Vector
+                    - VECTOR: Vector
+                    - VECTOR: Vector
+                    - VECTOR: Vector
+                    - VECTOR: Vector
+                    - VECTOR: Vector
+                    - VECTOR: Vector
+                    - VECTOR: Vector
+                    - VECTOR: Vector
+                  - GROUP: Ruble
+                    - VECTOR: Vector
+                    - VECTOR: Vector
+                    - VECTOR: Vector
+                    - VECTOR: Vector
+                    - VECTOR: Vector
+                    - VECTOR: Vector
+                    - VECTOR: Vector
+                    - VECTOR: Vector
+                    - VECTOR: Vector
+                    - VECTOR: Vector
+                    - VECTOR: Vector
+                    - VECTOR: Vector
+                    - VECTOR: Vector
+                    - VECTOR: Vector
+                    - VECTOR: Vector
+                    - VECTOR: Vector
+                    - VECTOR: Vector
+                    - VECTOR: Vector
+                    - VECTOR: Vector
+                    - VECTOR: Vector
+    - FRAME: ОК для вашего бизнеса
+      - INSTANCE: Promo Page Title
+        - TEXT: Подключите бесплатно — пользуйтесь, когда понадобятся деньги
+      - FRAME: Promo Page Cards-grid
+        - FRAME: Promo Page Card-row
+          - INSTANCE: Promo Page Card
+            - FRAME: Content
+              - INSTANCE: Avatar
+                - FRAME: Content
+                  - VECTOR: Fill
+                  - INSTANCE: Icon
+                    - GROUP: Source
+                      - VECTOR: Vector
+                    - BOOLEAN_OPERATION: Icon
+                      - VECTOR: Vector
+              - FRAME: Text
+                - TEXT: Подключаете сейчас
+                - TEXT: Лимит появится на счёте и будет доступен, если понадобятся деньги
+            - RECTANGLE: Image
+          - INSTANCE: Promo Page Card
+            - FRAME: Content
+              - INSTANCE: Avatar
+                - FRAME: Content
+                  - VECTOR: Fill
+                  - INSTANCE: Icon
+                    - GROUP: Source
+                      - VECTOR: Vector
+                    - BOOLEAN_OPERATION: Icon
+                      - VECTOR: Vector
+              - FRAME: Text
+                - TEXT: Платите только при использовании
+                - TEXT: Пока вы не тратите деньги из лимита, ничего платить не нужно
+            - RECTANGLE: Image
+        - INSTANCE: Promo Page Card
+          - FRAME: Content
+            - INSTANCE: Avatar
+              - FRAME: Content
+                - VECTOR: Fill
+                - INSTANCE: Icon
+                  - GROUP: Source
+                    - VECTOR: Vector
+                  - BOOLEAN_OPERATION: Icon
+                    - VECTOR: Vector
+            - FRAME: Text
+              - TEXT: Деньги про запас
+              - TEXT: Лимит поможет оплатить расходы, если временно не хватит собственных средств
+    - FRAME: ОК для вашего бизнеса
+      - INSTANCE: Promo Page Title
+        - TEXT: Как работает
+      - FRAME: Frame 33
+        - INSTANCE: XL
+          - FRAME: Left Accessory
+            - INSTANCE: Left Accessory
+              - INSTANCE: Stroked 2px/Circle
+                - GROUP: Source
+                  - VECTOR: Vector
+                  - VECTOR: Vector
+                  - VECTOR: Vector
+                  - VECTOR: Vector
+                - BOOLEAN_OPERATION: Icon
+                  - VECTOR: Vector
+          - FRAME: Content
+            - FRAME: Text
+              - TEXT: Лимит подключен — платить ничего не нужно
+              - TEXT: На счёте появляется дополнительный лимит
+            - FRAME: Right Accessory
+              - INSTANCE: Right Accessory
+                - INSTANCE: Stroked 2px/Chevron Right
+                  - GROUP: Source
+                    - VECTOR: Vector
+                  - BOOLEAN_OPERATION: Icon
+                    - VECTOR: Vector
+        - INSTANCE: XL
+          - FRAME: Left Accessory
+            - INSTANCE: Left Accessory
+              - INSTANCE: Stroked 2px/Circle
+                - GROUP: Source
+                  - VECTOR: Vector
+                  - VECTOR: Vector
+                  - VECTOR: Vector
+                - BOOLEAN_OPERATION: Icon
+                  - VECTOR: Vector
+          - FRAME: Content
+            - FRAME: Text
+              - TEXT: Не хватило денег — используете лимит
+              - TEXT: Недостающая сумма спишется автоматически при платеже
+            - FRAME: Right Accessory
+              - INSTANCE: Right Accessory
+                - INSTANCE: Stroked 2px/Chevron Right
+                  - GROUP: Source
+                    - VECTOR: Vector
+                  - BOOLEAN_OPERATION: Icon
+                    - VECTOR: Vector
+        - INSTANCE: XL
+          - FRAME: Left Accessory
+            - INSTANCE: Left Accessory
+              - INSTANCE: Stroked 2px/Circle
+                - GROUP: Source
+                  - VECTOR: Vector
+                  - VECTOR: Vector
+                  - VECTOR: Vector
+                  - VECTOR: Vector
+                  - VECTOR: Vector
+                  - VECTOR: Vector
+                - BOOLEAN_OPERATION: Icon
+                  - VECTOR: Vector
+          - FRAME: Content
+            - FRAME: Text
+              - TEXT: 30 дней можно пользоваться и возвращать деньги
+              - TEXT: Комиссии начисляются только за использование лимита
+            - FRAME: Right Accessory
+              - INSTANCE: Right Accessory
+                - INSTANCE: Stroked 2px/Chevron Right
+                  - GROUP: Source
+                    - VECTOR: Vector
+                  - BOOLEAN_OPERATION: Icon
+                    - VECTOR: Vector
+        - INSTANCE: XL
+          - FRAME: Left Accessory
+            - INSTANCE: Left Accessory
+              - INSTANCE: Stroked 2px/Circle
+                - GROUP: Source
+                  - VECTOR: Vector
+                  - VECTOR: Vector
+                  - VECTOR: Vector
+                  - VECTOR: Vector
+                - BOOLEAN_OPERATION: Icon
+                  - VECTOR: Vector
+          - FRAME: Content
+            - FRAME: Text
+              - TEXT: Погасили весь долг — снова есть 30 дней на использование
+              - TEXT: После полного погашения период использования лимита начинается заново
+            - FRAME: Right Accessory
+              - INSTANCE: Right Accessory
+                - INSTANCE: Stroked 2px/Chevron Right
+                  - GROUP: Source
+                    - VECTOR: Vector
+                  - BOOLEAN_OPERATION: Icon
+                    - VECTOR: Vector
+        - INSTANCE: XL
+          - FRAME: Left Accessory
+            - INSTANCE: Left Accessory
+              - INSTANCE: Stroked 2px/Circle
+                - GROUP: Source
+                  - VECTOR: Vector
+                  - VECTOR: Vector
+                  - VECTOR: Vector
+                - BOOLEAN_OPERATION: Icon
+                  - VECTOR: Vector
+          - FRAME: Content
+            - FRAME: Text
+              - TEXT: Если не успели вернуть деньги за 30 дней
+              - TEXT: Есть ещё 15 дней на погашение. После 45 дня начнут начисляться штрафы.
+            - FRAME: Right Accessory
+              - INSTANCE: Right Accessory
+                - INSTANCE: Stroked 2px/Chevron Right
+                  - GROUP: Source
+                    - VECTOR: Vector
+                  - BOOLEAN_OPERATION: Icon
+                    - VECTOR: Vector
+    - FRAME: ОК для вашего бизнеса
+      - INSTANCE: Promo Page Title
+        - TEXT: Сколько стоит
+      - FRAME: Promo Page Cards-grid
+        - FRAME: комиссии
+          - INSTANCE: XL
+            - FRAME: Left Accessory
+              - INSTANCE: Left Accessory
+                - INSTANCE: Stroked 2px/Circle
+                  - GROUP: Source
+                    - VECTOR: Vector
+                  - BOOLEAN_OPERATION: Icon
+                    - VECTOR: Vector
+            - FRAME: Content
+              - FRAME: Text
+                - TEXT: Подключение бесплатное
+                - TEXT: Вы платите, только когда тратите деньги из лимита
+              - FRAME: Right Accessory
+                - INSTANCE: Right Accessory
+                  - INSTANCE: Stroked 2px/Chevron Right
+                    - GROUP: Source
+                      - VECTOR: Vector
+                    - BOOLEAN_OPERATION: Icon
+                      - VECTOR: Vector
+          - INSTANCE: XL
+            - FRAME: Left Accessory
+              - INSTANCE: Left Accessory
+                - INSTANCE: Stroked 2px/Circle
+                  - GROUP: Source
+                    - VECTOR: Vector
+                    - TEXT: 1
+                  - BOOLEAN_OPERATION: Icon
+                    - VECTOR: Vector
+            - FRAME: Content
+              - FRAME: Text
+                - TEXT: Еженедельная комиссия — 490 ₽
+                - TEXT: Начисляется в следующий день после того, как вы потратите первую сумму из лимита, и дальше каждые 7 дней, пока не погасите долг
+              - FRAME: Right Accessory
+                - INSTANCE: Right Accessory
+                  - INSTANCE: Stroked 2px/Chevron Right
+                    - GROUP: Source
+                      - VECTOR: Vector
+                    - BOOLEAN_OPERATION: Icon
+                      - VECTOR: Vector
+          - INSTANCE: XL
+            - FRAME: Left Accessory
+              - INSTANCE: Left Accessory
+                - INSTANCE: Stroked 2px/Circle
+                  - GROUP: Source
+                    - VECTOR: Vector
+                    - TEXT: 2
+                  - BOOLEAN_OPERATION: Icon
+                    - VECTOR: Vector
+            - FRAME: Content
+              - FRAME: Text
+                - TEXT: Ежедневная комиссия — от 180 ₽
+                - TEXT: Зависит от суммы долга — размер комиссии
+              - FRAME: Right Accessory
+                - INSTANCE: Right Accessory
+                  - INSTANCE: Stroked 2px/Chevron Right
+                    - GROUP: Source
+                      - VECTOR: Vector
+                    - BOOLEAN_OPERATION: Icon
+                      - VECTOR: Vector
+          - INSTANCE: Link Cell
+            - FRAME: Icon
+              - INSTANCE: Icon
+                - GROUP: Source
+                  - VECTOR: Vector
+                  - VECTOR: Vector
+                  - VECTOR: Vector
+                  - VECTOR: Vector
+                  - VECTOR: Vector
+                  - VECTOR: Vector
+                  - RECTANGLE: Rounded rectangle
+                  - RECTANGLE: Rounded rectangle
+                  - VECTOR: Vector
+                - BOOLEAN_OPERATION: Icon
+                  - VECTOR: Vector
+            - FRAME: Text+Spinner
+              - FRAME: Text
+                - TEXT: Калькулятор комиссий
+                - TEXT: Посчитайте стоимость кредита
+              - FRAME: Spinner β
+                - INSTANCE: Spinner
+                  - VECTOR: Vector
+        - INSTANCE: Promo Page Card
+          - FRAME: Content
+            - INSTANCE: Avatar
+              - FRAME: Content
+                - VECTOR: Fill
+                - INSTANCE: Icon
+                  - GROUP: Source
+                    - VECTOR: Vector
+                  - BOOLEAN_OPERATION: Icon
+                    - VECTOR: Vector
+            - FRAME: Text
+              - TEXT: Если вернуть деньги в тот же день (до 21:00 мск), комиссии не начислятся
+              - TEXT: Пока вы не тратите деньги из лимита, ничего платить не нужно
+          - RECTANGLE: Image
+    - FRAME: Частые вопросы
+      - INSTANCE: Promo Page Title
+        - TEXT: Частые вопросы
+      - INSTANCE: Accordeon Cell
+        - FRAME: Center
+          - FRAME: Content
+            - TEXT: На что можно тратить?
+            - FRAME: Chevrone
+              - INSTANCE: Stroked 2px/Chevron Down
+                - GROUP: Source
+                  - VECTOR: Vector
+                - BOOLEAN_OPERATION: Icon
+                  - VECTOR: Vector
+          - FRAME: Description
+            - TEXT: Text S
+        - FRAME: Right Accessory
+          - INSTANCE: Right Accessory
+            - TEXT: Text M
+      - INSTANCE: Accordeon Cell
+        - FRAME: Center
+          - FRAME: Content
+            - TEXT: Можно ли изменить лимит?
+            - FRAME: Chevrone
+              - INSTANCE: Stroked 2px/Chevron Down
+                - GROUP: Source
+                  - VECTOR: Vector
+                - BOOLEAN_OPERATION: Icon
+                  - VECTOR: Vector
+          - FRAME: Description
+            - TEXT: Text S
+        - FRAME: Right Accessory
+          - INSTANCE: Right Accessory
+            - TEXT: Text M
+      - INSTANCE: Accordeon Cell
+        - FRAME: Center
+          - FRAME: Content
+            - TEXT: Как снимать наличные
+            - FRAME: Chevrone
+              - INSTANCE: Stroked 2px/Chevron Down
+                - GROUP: Source
+                  - VECTOR: Vector
+                - BOOLEAN_OPERATION: Icon
+                  - VECTOR: Vector
+          - FRAME: Description
+            - TEXT: Text S
+        - FRAME: Right Accessory
+          - INSTANCE: Right Accessory
+            - TEXT: Text M
+      - INSTANCE: Accordeon Cell
+        - FRAME: Center
+          - FRAME: Content
+            - TEXT: Как погашается
+            - FRAME: Chevrone
+              - INSTANCE: Stroked 2px/Chevron Down
+                - GROUP: Source
+                  - VECTOR: Vector
+                - BOOLEAN_OPERATION: Icon
+                  - VECTOR: Vector
+          - FRAME: Description
+            - TEXT: Text S
+        - FRAME: Right Accessory
+          - INSTANCE: Right Accessory
+            - TEXT: Text M
+      - INSTANCE: Accordeon Cell
+        - FRAME: Center
+          - FRAME: Content
+            - TEXT: Что будет при просрочке
+            - FRAME: Chevrone
+              - INSTANCE: Stroked 2px/Chevron Down
+                - GROUP: Source
+                  - VECTOR: Vector
+                - BOOLEAN_OPERATION: Icon
+                  - VECTOR: Vector
+          - FRAME: Description
+            - TEXT: Text S
+        - FRAME: Right Accessory
+          - INSTANCE: Right Accessory
+            - TEXT: Text M
+    - FRAME: Actions
+      - INSTANCE: Page Action
+        - FRAME: Left Accessory
+          - INSTANCE: Stroked 2px/Question Circle
+            - GROUP: Source
+              - VECTOR: Vector
+              - VECTOR: Vector
+            - BOOLEAN_OPERATION: Icon
+              - VECTOR: Vector
+        - FRAME: Content
+          - TEXT: О партнёре
+          - TEXT: Кредит выдаёт наш партнёр Т-Банк, а сервис и заботливая поддержка — на стороне Точка Банка
+        - INSTANCE: Spinner
+          - VECTOR: Vector
+      - INSTANCE: Page Action
+        - FRAME: Left Accessory
+          - INSTANCE: Stroked 2px/Prohibited Circle
+            - GROUP: Source
+              - VECTOR: Vector
+              - VECTOR: Vector
+            - BOOLEAN_OPERATION: Icon
+              - VECTOR: Vector
+        - FRAME: Content
+          - TEXT: Отказаться от предложения
+        - INSTANCE: Spinner
+          - VECTOR: Vector
+  - INSTANCE: Footer
+    - TEXT: Персональное предложение до 30 октября
+    - INSTANCE: Button
+      - INSTANCE: Spinner
+        - VECTOR: Vector
+      - FRAME: Content
+        - TEXT: К подписанию документов
+  - INSTANCE: Buttons Bar
+    - FRAME: Content
+      - INSTANCE: Homescreen Button
+        - VECTOR: Vector
+        - INSTANCE: Filled/Magnifier
+          - GROUP: Source
+            - BOOLEAN_OPERATION: Union
+              - BOOLEAN_OPERATION: Subtract
+                - VECTOR: Vector
+                - VECTOR: Vector
+              - VECTOR: Vector
+          - BOOLEAN_OPERATION: Icon
+            - VECTOR: Vector
+        - INSTANCE: Badge
+          - FRAME: Content
+            - TEXT: 0
+      - FRAME: Buttons Group
+        - INSTANCE: Homescreen Button 2
+          - VECTOR: Vector
+          - INSTANCE: Filled/Letter A Acs Star Shine
+            - GROUP: Source
+              - VECTOR: Vector
+              - VECTOR: Vector
+            - BOOLEAN_OPERATION: Icon
+              - VECTOR: Vector
+          - INSTANCE: Badge
+            - FRAME: Content
+              - TEXT: 0
+        - INSTANCE: Homescreen Button 1
+          - VECTOR: Vector
+          - INSTANCE: Filled/Bubble Rounded List Short
+            - GROUP: Source
+              - BOOLEAN_OPERATION: Subtract
+                - BOOLEAN_OPERATION: Union
+                  - ELLIPSE: Ellipse
+                  - VECTOR: Vector
+                - RECTANGLE: Rounded rectangle
+                - RECTANGLE: Rounded rectangle
+            - BOOLEAN_OPERATION: Icon
+              - VECTOR: Vector
+          - INSTANCE: Badge
+            - FRAME: Content
+              - TEXT: 0
