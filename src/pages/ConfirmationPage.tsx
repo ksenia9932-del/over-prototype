@@ -203,10 +203,13 @@ export default function ConfirmationPage() {
                 </button>
               </div>
               <div className={styles.modalBody}>
+                <p className={styles.modalText}>
+                  Комиссии начисляются только при использовании лимита. Если вернуть деньги в тот же день, когда взяли, до 21:00 мск, платить ничего не нужно.
+                </p>
                 <div className={styles.modalSection}>
                   <h4 className={styles.modalSubtitle}>Еженедельная</h4>
                   <p className={styles.modalText}>
-                    Фиксированная — 490 ₽. Начисляется в следующий день после того, как вы потратите первую сумму из лимита, и дальше каждые 7 дней, пока не погасите долг.
+                    Фиксированная — 490 ₽. Начисляется в день, когда вы потратите первую сумму из овердрафта, и дальше каждые 7 дней, пока не погасите долг.
                   </p>
                 </div>
                 <div className={styles.modalSection}>
