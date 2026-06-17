@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import styles from './ConfirmationPage.module.css';
 
@@ -24,6 +24,10 @@ export default function ConfirmationPage() {
   const [smsCode, setSmsCode] = useState('');
   const [selectedAccount, setSelectedAccount] = useState(ACCOUNTS[0]);
   const [isSelectOpen, setIsSelectOpen] = useState(false);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const handleBack = () => {
     navigate(-1);
