@@ -208,7 +208,7 @@ const PromoPage: React.FC = () => {
             </div>
             </div>
             <div className={styles.bannerImage}>
-              <img src="/assets/images/promo-page-img.png" alt="Promo illustration" />
+              <img src="./assets/images/promo-page-img.png" alt="Promo illustration" />
             </div>
           </section>
 
@@ -220,7 +220,7 @@ const PromoPage: React.FC = () => {
                   <p>Оплачивайте расходы, даже когда не хватает своих денег</p>
                 </div>
                 <div className={styles.cardImagePlaceholder}>
-                  <img src="/assets/images/battery.png" alt="Дополнительный лимит" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                  <img src="./assets/images/battery.png" alt="Дополнительный лимит" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
                 </div>
               </div>
               <div className={styles.card}>
@@ -229,7 +229,7 @@ const PromoPage: React.FC = () => {
                   <p>Платите только, когда тратите деньги из&nbsp;овердрафта</p>
                 </div>
                 <div className={styles.cardImagePlaceholder}>
-                  <img src="/assets/images/heart.png" alt="Бесплатное подключение" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                  <img src="./assets/images/heart.png" alt="Бесплатное подключение" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
                 </div>
               </div>
               <div className={styles.card}>
@@ -238,7 +238,7 @@ const PromoPage: React.FC = () => {
                   <p>Можете пользоваться деньгами в течение этого срока</p>
                 </div>
                 <div className={styles.cardImagePlaceholder}>
-                  <img src="/assets/images/calendar.png" alt="45 дней на погашение" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                  <img src="./assets/images/calendar.png" alt="45 дней на погашение" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
                 </div>
               </div>
               <div className={styles.card}>
@@ -247,7 +247,7 @@ const PromoPage: React.FC = () => {
                   <p>После погашения можно брать деньги снова</p>
                 </div>
                 <div className={styles.cardImagePlaceholder}>
-                  <img src="/assets/images/coin-machine.png" alt="Возобновляемый кредит" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                  <img src="./assets/images/coin-machine.png" alt="Возобновляемый кредит" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
                 </div>
               </div>
             </div>
